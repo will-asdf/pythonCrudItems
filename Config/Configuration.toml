@@ -1,0 +1,9 @@
+[server]
+host = "127.0.0.1"
+port = 5000
+debug = true
+
+[mongo]
+connection = "mongodb+srv://williamuser:12345678a@clusterwilliam-gr9mm.mongodb.net/test?retryWrites=true"
+database = "williamdb"
+collection = "items"
